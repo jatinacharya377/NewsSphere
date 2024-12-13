@@ -1,4 +1,4 @@
-# EkaCare News App
+# NewsSphere App
 The News App allows users to view the latest top headlines and articles from various sources worldwide. It fetches real-time data from the NewsAPI, displaying the top stories on the home screen. Users can explore different news categories, view detailed articles, and bookmark their favorite content. The app provides an intuitive, responsive UI built with 
 Jetpack Compose, following modern Android development practices.
 
@@ -15,7 +15,7 @@ The app is built using a MVVM (Model-View-ViewModel) design pattern. It leverage
 - *Gradle* version 7.0+
 - *API key* from *NewsApi*
 ## Clone the repository
-You can clone the repository by using the url: *https://github.com/jatinacharya377/EkaCare_News_App_Assignment.git*. This can be done either from the Android Studio using *Import Project from Version Control* or you can run this git command "*git clone https://github.com/jatinacharya377/EkaCare_News_App_Assignment.git*".
+You can clone the repository by using the url: *https://github.com/jatinacharya377/NewsSphere.git*. This can be done either from the Android Studio using *Import Project from Version Control* or you can run this git command "*git clone https://github.com/jatinacharya377/NewsSphere.git*".
 ## Set up the project
 - *Import into Android Studio*: Open the Android Studio and import as an existing project
 - *Add your API Key*: Open the *strings.xml* file located in "*res/values/*" and replace *API_KEY* with your valid API key if you want or you could continue with the API key provided.
@@ -28,7 +28,7 @@ You can clone the repository by using the url: *https://github.com/jatinacharya3
 - *Hilt*: Dependency Injection library for simplifying DI setup in Android apps.
 - *Retrofit*: Retrofit is a type-safe HTTP client used to interact with REST APIs.
 - *Room Database*: Local database solution for persistent storage.
-# Explananation of the archritecture and Design choices
+# Explananation of the architecture and Design choices
 ## Architecture
 The app follows a MVVM (Model-View-ViewModel) design pattern, which helps in separating concerns and ensures the code remains maintainable, testable, and scalable.
 - *Model*: This consists of the data layer, including the data models, the network API interface (using Retrofit), and the Room Database for local storage.
